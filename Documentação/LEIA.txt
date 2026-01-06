@@ -1,0 +1,21 @@
+📁 Local do arquivo de backup
+Após gerar o arquivo .bat, ele será salvo no seguinte diretório:
+C:\Program Files (x86)\Automatizar Backup\backup_automatico.bat
+
+⏰ Criando a rotina de backup automático
+Para que o backup seja executado automaticamente, é necessário configurar uma tarefa no Agendador de Tarefas do Windows.
+⚠️ Atenção (passo importante)
+- Antes de importar a tarefa, edite o arquivo XML conforme o seu computador: Abra o arquivo XML em um editor de texto (Bloco de Notas, por exemplo).
+- Localize a linha: <Command>C:\Program Files (x86)\Automatizar Backup\backup_automatico.bat</Command>
+- Ajuste o caminho para o local correto onde o arquivo backup_automatico.bat está salvo no seu sistema.
+- Salve o arquivo XML.
+
+🛠 Importando a tarefa no Agendador
+- Pressione Win + R
+- Digite: taskschd.msc
+- Pressione Enter
+- No menu lateral, clique em Importar Tarefa...
+- Selecione o arquivo XML ajustado
+- Confirme a importação
+
+✅ Pronto! O backup automático estará configurado e funcionando conforme o agendamento definido no XML.

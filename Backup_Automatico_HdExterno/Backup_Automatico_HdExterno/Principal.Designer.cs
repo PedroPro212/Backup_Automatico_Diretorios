@@ -37,6 +37,8 @@
             this.button3 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.chkExibirCMD = new System.Windows.Forms.CheckBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -131,11 +133,33 @@
             this.chkExibirCMD.UseVisualStyleBackColor = true;
             this.chkExibirCMD.CheckedChanged += new System.EventHandler(this.chkExibirCMD_CheckedChanged);
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 13F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(190, 464);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(313, 22);
+            this.label4.TabIndex = 9;
+            this.label4.Text = "Desenvolvido por Programação Diária";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(272, 496);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(149, 17);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "@programacao_diaria";
+            // 
             // Principal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(693, 462);
+            this.ClientSize = new System.Drawing.Size(693, 545);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.chkExibirCMD);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button3);
@@ -165,6 +189,8 @@
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.CheckBox chkExibirCMD;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
     }
 }
 
