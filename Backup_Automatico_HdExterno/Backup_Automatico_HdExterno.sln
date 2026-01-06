@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backup_Automatico_HdExterno", "Backup_Automatico_HdExterno\Backup_Automatico_HdExterno.csproj", "{0B8D3661-F50D-496C-8051-EBDB5EE86854}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B8D3661-F50D-496C-8051-EBDB5EE86854}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B8D3661-F50D-496C-8051-EBDB5EE86854}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B8D3661-F50D-496C-8051-EBDB5EE86854}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B8D3661-F50D-496C-8051-EBDB5EE86854}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CB5995E6-CED5-4117-8B7A-AF381BEF08D0}
+	EndGlobalSection
+EndGlobal
