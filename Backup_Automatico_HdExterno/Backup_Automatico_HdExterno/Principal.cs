@@ -129,11 +129,12 @@ namespace Backup_Automatico_HdExterno
             sb.AppendLine();
 
             sb.AppendLine(":AGUARDA_HD");
-            sb.AppendLine("if not exist E:\\ (");
+            sb.AppendLine("if not exist \"%DESTINO%\" (");
             sb.AppendLine("    timeout /t 5 >nul");
             sb.AppendLine("    goto AGUARDA_HD");
             sb.AppendLine(")");
             sb.AppendLine();
+
 
             foreach (var origem in pastas)
             {

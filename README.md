@@ -60,3 +60,5 @@ Após concluir as configurações, o botão **Gerar .bat** cria automaticamente 
 O arquivo ***.bat*** gerado pode ser executado manualmente ou importado no **Agendador de Tarefas do Windows**, permitindo que o backup seja realizado automaticamente na inicialização do sistema ou em horários definidos pelo usuário.
 
 Esse fluxo garante que o processo de backup seja confiável, automatizado e transparente, reduzindo a necessidade de ações manuais repetitivas e minimizando o risco de perda de dados.
+
+### Como deixar automático
