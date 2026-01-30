@@ -61,4 +61,13 @@ O arquivo ***.bat*** gerado pode ser executado manualmente ou importado no **Age
 
 Esse fluxo garante que o processo de backup seja confiável, automatizado e transparente, reduzindo a necessidade de ações manuais repetitivas e minimizando o risco de perda de dados.
 
-### Como deixar automático
+### Como deixar o backup automático
+Para automatizar todo esse fluxo, é necessário criar uma tarefa no **Agendador de Tarefas do Windows**.
+
+Siga os passos abaixo:
+- Abra o arquivo de modelo **.xml** e edite o caminho correto onde está localizado o arquivo .bat, depois salve o arquivo
+- Abra o **Agendador de Tarefas do Windows**
+- Clique em **Importar Tarefa** e selecione o arquivo .xml ajustado
+- Clique em **OK** para concluir
+
+**Pronto!** A rotina de backup estará configurada para executar automaticamente conforme definido na tarefa.
